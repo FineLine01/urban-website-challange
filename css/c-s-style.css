@@ -6,9 +6,9 @@
 body {
     background-image: url(/imgs/background.png);
     background-repeat: no-repeat;
-    max-width: 1440px;
     font-family: 'Nunito', sans-serif;
-    height: 100vh;
+    height: 80vh;
+    width: 40vw;
 }
 
 .header > nav > ul > li {
@@ -42,7 +42,7 @@ nav {
 .cart-icon {
     position: absolute;
     top: 25px;
-    right: 50px;
+    left: 1000px;
 }
 
 .container {
