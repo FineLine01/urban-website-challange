@@ -46,11 +46,11 @@ nav {
 }
 
 .container {
-    max-width: 350px;
+    max-width: 500px;
     max-height: 100px;
     position: relative;
-    top: 350px;
-    left: 350px;
+    top: 230px;
+    left: 300px;
 }
 
 .button-col {
@@ -65,25 +65,65 @@ nav {
     width: 200px;
     border: none;
     border-radius: 7px;
+    cursor: pointer;
   }
 
   .container > h2 {
-    padding: 30px;
-  }
-
-  .container > p {
-    padding: 30px;
+      position: absolute;
+      top: 80px;
+      left: 0px;
+      padding: 2px
+    }
+    
+    .container > p {
+        position: absolute;
+        top: 160px;
+        left: 0;
+        padding: 2px;
   }
 
   .arrows-icons {
     position: absolute;
-    top: 300px;
-    left: 70px;
+    top: 220px;
+    left: 30px;
+  }
+
+  #bck, #nxt {
+    padding: 20px;
   }
 
   .model-png {
-    position: absolute;
-    bottom: 0px;
-    right: 0px; 
+      position: absolute;
+      bottom: 0px;
+      right: 0px; 
   }
- 
+
+.s-m-icons {
+    position: relative;
+}
+
+#fb-ic {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+
+#inst-ic  {
+    position: absolute;
+    top: 260px;
+    left: 30px;
+}
+
+#twt-ic {
+    position: absolute;
+    top: 320px;
+    left: 30px;
+}
+
+#in-ic {
+    position: absolute;
+    top: 380px;
+    left: 30px;
+}
+
+
