@@ -29,20 +29,16 @@ nav {
   font-size: 20px;
 }
 
-.icons {
-    position: relative
-}
-
 .urban-logo {
     position: absolute;
-    top: 17px;
+    top: 50px;
     left: 45px;
 }
 
 .cart-icon {
-    position: relative;
-    top: 25px;
-    right: -1000px;
+    position: absolute;
+    top: 50px;
+    right: 450px;
 }
 
 .container {
@@ -124,4 +120,95 @@ nav {
     position: absolute;
     top: 380px;
     left: 30px;
+}
+
+
+
+@media (max-width: 1290px) {
+    .cart-icon {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    } 
+    
+}
+
+@media (max-width: 1040px) {
+    .cart-icon {
+        position: absolute;
+        top: 50px;
+        right: 100px;
+    }
+    
+    #model {
+        width: 350px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    #model {
+        width: 200px;
+    }
+
+    nav {
+        width: 20px;
+        position: relative;
+        top: 60px;
+        left: 400px;
+    }
+    
+    .cart-icon {
+        position: absolute;
+        top: 50px;
+        right: 45px;
+    }
+
+    .container {
+        max-width: 600px;
+        max-height: 300px;
+        position: relative;
+        top: 150px;
+        left: 230px;
+    }
+
+    .container > h2 {
+        width: 105px;
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        padding: 2px;
+      }
+      
+      .container > p {
+          width: 80px;
+          position: absolute;
+          top: 90px;
+          left: 120px;
+          padding: 2px;
+    }
+
+    .arrows-icons {
+        position: absolute;
+        top: 250px;
+        left: 0px;
+        max-width: 200px;
+    }
+
+    #bck, #nxt {
+        padding: 20px;
+      }
+}
+
+@media (max-width: 568px) {
+    #model {
+        width: 150px;
+    }
+
+    nav {
+        width: 20px;
+        position: relative;
+        top: 60px;
+        left: 300px;
+    }
 }
