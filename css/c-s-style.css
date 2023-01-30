@@ -40,9 +40,9 @@ nav {
 }
 
 .cart-icon {
-    position: absolute;
+    position: relative;
     top: 25px;
-    left: 1000px;
+    right: -1000px;
 }
 
 .container {
@@ -125,5 +125,3 @@ nav {
     top: 380px;
     left: 30px;
 }
-
-
